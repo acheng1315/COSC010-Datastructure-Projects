@@ -1,0 +1,7 @@
+Vertices: [Bob, Dartmouth, Alice, Charlie, Nobody, Nobody's Friend, Kevin Bacon]
+Out edges: {Bob={Alice=[A Movie], Charlie=[C Movie], Kevin Bacon=[A Movie]}, Dartmouth={Charlie=[B Movie]}, Alice={Bob=[A Movie], Charlie=[D Movie], Kevin Bacon=[A Movie, E Movie]}, Charlie={Bob=[C Movie], Dartmouth=[B Movie], Alice=[D Movie]}, Nobody={Nobody's Friend=[F Movie]}, Nobody's Friend={Nobody=[F Movie]}, Kevin Bacon={Bob=[A Movie], Alice=[A Movie, E Movie]}}
+Vertices: [Bob, Dartmouth, Alice, Charlie, Kevin Bacon]
+Out edges: {Bob={Kevin Bacon=[A Movie]}, Dartmouth={Charlie=[B Movie]}, Alice={Kevin Bacon=[A Movie, E Movie]}, Charlie={Bob=[C Movie]}, Kevin Bacon={}}
+[Nobody, Nobody's Friend]
+1.4
+[Charlie, Bob, Kevin Bacon]

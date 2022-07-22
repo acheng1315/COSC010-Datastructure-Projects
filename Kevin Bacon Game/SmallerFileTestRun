@@ -1,0 +1,51 @@
+/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=55572:/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/andrewcheng/IdeaProjects/CS10/libs/opencv.jar:/Users/andrewcheng/IdeaProjects/CS10/libs/javacv.jar:/Users/andrewcheng/IdeaProjects/CS10/libs/openblas-macosx-x86_64.jar:/Users/andrewcheng/IdeaProjects/CS10/libs/opencv-macosx-x86_64.jar:/Users/andrewcheng/IdeaProjects/CS10/libs/json-simple-1.1.1.jar:/Users/andrewcheng/IdeaProjects/CS10/libs/net-datastructures-4-0.jar:/Users/andrewcheng/IdeaProjects/CS10/out/production/CS10 BaconGame
+Commands:
+c <#>: list top (positive number) or bottom (negative) <#> centers of the universe, sorted by average separation
+d <low> <high>: list actors sorted by degree, with degree between low and high
+i: list actors with infinite separation from the current center
+p <name>: find path from <name> to current center of the universe
+s <low> <high>: list actors sorted by non-infinite separation from the current center, with separation between low and high
+u <name>: make <name> the center of the universe
+q: quit game
+
+Kevin Bacon game >
+s 1 3
+[Bob, Alice, Charlie]
+Kevin Bacon game >
+p Alice
+Alice's number is 1
+Alice appeared in [A movie, E movie] with Kevin Bacon
+Kevin Bacon game >
+i
+[Nobody, Nobody's Friend]
+Kevin Bacon game >
+u Bob
+Bob is now the center of the acting universe, connected to 5/7 actors with average separation 1.0
+Kevin Bacon game >
+d 0 2
+[Nobody, Dartmouth (Earl thereof), Nobody's Friend, Kevin Bacon]
+Kevin Bacon game >
+c 2
+[Nobody, Nobody's Friend]
+Kevin Bacon game >
+c -2
+[Dartmouth (Earl thereof), Kevin Bacon]
+Kevin Bacon game >
+u Kevin Bacon
+Kevin Bacon is now the center of the acting universe, connected to 5/7 actors with average separation 1.4
+Kevin Bacon game >
+i
+[Nobody, Nobody's Friend]
+Kevin Bacon game >
+s 2 4
+[Charlie, Dartmouth (Earl thereof)]
+Kevin Bacon game >
+s 2 8
+[Charlie, Dartmouth (Earl thereof)]
+Kevin Bacon game >
+s 1 9
+[Bob, Alice, Charlie, Dartmouth (Earl thereof)]
+Kevin Bacon game >
+q
+
+Process finished with exit code 0
