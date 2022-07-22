@@ -1,0 +1,2 @@
+this is a test to ensure that the huffman encoder works properly. Hopefully this works pls. !!!!SDHJKWEJKWHAJasdbjkwqd
+asbdwhjkqbdjkwbejqkjwn sjncncjaksnjdsdjhwqhejehjkqhjndsjncjndjas djsahkwjeqjwebq
